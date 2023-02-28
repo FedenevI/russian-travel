@@ -1,0 +1,30 @@
+.header {
+  margin: 0 auto;
+  /* width: 92.5vw; */
+  display: flex;
+  justify-content: space-between;
+}
+
+@media screen and (min-width: 320px) {
+  .header {
+      width: calc(100vw - 16px*2);
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .header {
+      width: calc(100vw - 24px*2);
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .header {
+      width: calc(100vw - 48px*2);
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .header {
+      width: 92.5vw;
+  }
+}
