@@ -1,0 +1,27 @@
+.content {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+/* 1024 */
+
+@media screen and (max-width: 1279px) {
+  .content {
+    max-width: 1024px;
+  }
+}
+
+/* 768px */
+
+@media screen and (max-width: 1023px) {
+  .content {
+    max-width: 768px;
+  }
+}
+
+/* 320px */
+@media screen and (max-width: 767px) {
+  .content {
+    max-width: 320px;
+  }
+}

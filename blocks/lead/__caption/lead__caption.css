@@ -1,18 +1,31 @@
 .lead__caption {
   margin: 0;
   padding: 0;
-  width: 12.34375vw;
-  padding-bottom: 3.75vw;
-  padding-top: 0.625vw;
+  width: 100%;
+  padding-top: 8px;
   font-family: 'Inter';
   font-style: normal;
   font-weight: 400;
-  font-size: 0.78125vw;
-  line-height: 1.09375vw;
+  font-size: 10px;
+  line-height: 14px;
+  letter-spacing: 0.15em;
   text-transform: uppercase;
   color: #FFFFFF;
 }
 
+@media screen and (max-width: 1023px) {
+  .lead__caption {
+   padding-left: 24px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .lead__caption {
+   padding-left: 16px;
+  }
+}
+
+/*
 @media screen and (min-width: 320px) {
   .lead__caption {
       width: calc(100vw - 16px - 146px);
@@ -45,4 +58,4 @@
       width: calc(100vw - 148px - 974px);
       padding-bottom: 92px;
   }
-}
+} */

@@ -1,9 +1,9 @@
-.cover__overlay {
+/* .cover__overlay {
   background-color: #2A2C2F;
   background-size: cover;
   opacity: 0.3;
-  /* width: 92.5vw;
-  height: 57.8125vw; */
+   width: 92.5vw;
+  height: 57.8125vw;
   position: absolute;
   z-index: 8;
 }
@@ -38,4 +38,4 @@
 
 .cover__overlay:hover {
   opacity: 0.8;
-}
+} */

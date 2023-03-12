@@ -1,17 +1,29 @@
 .intro__text {
   margin: 0;
   padding: 0;
-  width: 47vw;
-  /* padding-left: 11.5625vw; */
-  padding-bottom: 2.578125vw;
+  width: calc(100% - 294px);
+  padding-bottom: 33px;
   font-family: 'Inter';
   font-style: normal;
   font-weight: 400;
-  font-size: 1.25vw;
-  line-height: 2.03125vw;
+  font-size: 16px;
+  line-height: 163%;
   color: #FFFFFF;
 }
 
+@media screen and (max-width: 1279px) {
+  .intro__text {
+    width: calc(100% - 238px);
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .intro__text {
+    width: 100%;
+  }
+}
+
+/*
 @media screen and (min-width: 320px) {
   .intro__text {
       width: calc(100vw - 2*16px);
@@ -42,4 +54,4 @@
       width: calc(100vw - 148px - 442px);
       padding-left: 124px;
   }
-}
+} */

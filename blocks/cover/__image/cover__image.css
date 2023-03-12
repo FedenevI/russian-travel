@@ -1,17 +1,18 @@
-.cover__image {
+ /*.cover__image {
   background-image: url(../../../images/cover-trains.jpg);
   background-size: cover;
-  /* width: 92.5vw;
-  min-height: 57.8125vw; */
+  width: 92.5vw;
+  min-height: 57.8125vw;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   margin: 0;
   padding: 0;
-  /* margin-bottom: 5.4vw; */
+  /* margin-bottom: 5.4vw;
 }
-
+*/
+/*
 @media screen and (min-width: 320px) {
   .cover__image {
       width: 320px;
@@ -42,4 +43,4 @@
       height: 57.8125vw;
       margin-bottom: 5.4vw;
   }
-}
+} */

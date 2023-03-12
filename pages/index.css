@@ -2,6 +2,10 @@
 @import url(../blocks/page/page.css);
 @import url(../vendor/fonts/fonts.css);
 
+@import url(../blocks/content/content.css);
+@import url(../blocks/content/__smallwidth/content__smallwidth.css);
+@import url(../blocks/content/__bigwidth/content__bigwidth.css);
+
 @import url(../blocks/header/header.css);
 @import url(../blocks/header/__lang/header__lang-links.css);
 @import url(../blocks/header/__lang/header__lang-link.css);
@@ -19,6 +23,7 @@
 @import url(../blocks/intro/__list/intro__list.css);
 
 @import url(../blocks/photo-grid/photo-grid.css);
+
 @import url(../blocks/photo-grid/__items/photo-grid__items.css);
 @import url(../blocks/photo-grid/__item/photo-grid__item.css);
 
@@ -33,6 +38,7 @@
 @import url(../blocks/cover/cover.css);
 @import url(../blocks/cover/__image/cover__image.css);
 @import url(../blocks/cover/__link/cover__link.css);
+
 @import url(../blocks/cover/__overlay/cover__overlay.css);
 @import url(../blocks/cover/__subtitle/cover__subtitle.css);
 @import url(../blocks/cover/__title/cover__title.css);
