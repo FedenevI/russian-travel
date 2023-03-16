@@ -5,13 +5,13 @@
   font-size: 24px;
   line-height: 28px;
   color: #FFFFFF;
-  text-decoration-line: none;
+  list-style-type: none;
+  text-decoration: none;
 }
 
-.header__lang-link:nth-child(1) {
-  margin-right: 18px;
-  /* padding-right: 1.40625vw; */
-  text-decoration-line: underline;
+.header__lang-link:hover {
+  opacity: 0.8;
+  transition-duration: 0.5s;
 }
 
 @media screen and (max-width: 767px) {

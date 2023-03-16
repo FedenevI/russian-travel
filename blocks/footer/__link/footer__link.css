@@ -5,8 +5,13 @@
   font-weight: 400;
   font-size: 16px;
   line-height: 18px;
-  padding-right: 18px;
+  /* padding-right: 18px; */
   text-decoration-line: none;
+}
+
+.footer__link:hover {
+  opacity: 0.8;
+  transition-duration: 0.5s;
 }
 
 @media screen and (max-width: 767px) {

@@ -21,6 +21,11 @@
   text-decoration-line: underline;
 }
 
+.place__website:hover {
+  opacity: 0.8;
+  transition-duration: 0.5s;
+}
+
 @media screen and (max-width: 767px) {
   .place__website {
     padding-left: 16px;
