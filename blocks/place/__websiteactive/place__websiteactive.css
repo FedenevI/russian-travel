@@ -1,4 +1,4 @@
-.place__website_active {
+.place__websiteactive {
     font-family: 'Inter', Arial, sans-serif;
     font-weight: 400;
     font-size: 18px;
@@ -9,13 +9,13 @@
     text-decoration-line: underline;
 }
 
- .place__website_active:hover {
+ .place__websiteactive:hover {
     opacity: 0.8;
     transition-duration: 0.5s;
 }
 
 @media screen and (max-width: 767px) {
-  .place__website_active {
+  .place__websiteactive {
       padding-left: 16px;
   }
  }
