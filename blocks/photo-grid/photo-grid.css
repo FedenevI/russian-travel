@@ -1,4 +1,4 @@
-.photo-grid {
+/* .photo-grid {
   padding: 0;
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(284px, 1fr));
@@ -12,7 +12,7 @@
   grid-template-columns: repeat(auto-fill, minmax(284px, 1fr));
   gap: 12px;
   }
-}
+} */
 
 
 /*

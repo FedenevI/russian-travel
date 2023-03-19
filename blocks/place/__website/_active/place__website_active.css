@@ -1,0 +1,21 @@
+.place__website_active {
+    font-family: 'Inter', Arial, sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+    padding-top: 12px;
+    letter-spacing: 0;
+    text-decoration-line: underline;
+}
+
+ .place__website_active:hover {
+    opacity: 0.8;
+    transition-duration: 0.5s;
+}
+
+@media screen and (max-width: 767px) {
+  .place__website_active {
+      padding-left: 16px;
+  }
+ }

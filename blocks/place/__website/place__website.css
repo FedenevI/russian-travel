@@ -3,7 +3,7 @@
   padding: 0;
   color: #AAAAAA;
   text-decoration-line: none;
-  font-family: 'Inter';
+  font-family: 'Inter', Arial, sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 12px;
@@ -11,7 +11,7 @@
   letter-spacing: 0.2em;
 }
 
-.place__website:nth-child(2) {
+/* .place__website:nth-child(2) {
   font-weight: 400;
   font-size: 18px;
   line-height: 22px;
@@ -24,7 +24,7 @@
 .place__website:hover {
   opacity: 0.8;
   transition-duration: 0.5s;
-}
+} */
 
 @media screen and (max-width: 767px) {
   .place__website {
